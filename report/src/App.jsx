@@ -5,7 +5,7 @@ import { CalendarIcon, BuildingOfficeIcon } from "@heroicons/react/24/solid";
 import { utcToZonedTime } from 'date-fns-tz'
 import ThemeSwitch from "./components/ThemeSwitch";
 import { ThemeProvider } from 'next-themes'
-import logo from './assets/maester.png';
+import logo from './assets/proserv_b.png';
 import MtDonutChart from "./components/MtDonutChart";
 import MtTestSummary from "./components/MtTestSummary";
 import MtBlocksArea from './components/MtBlocksArea';
@@ -228,8 +228,8 @@ function App() {
     <ThemeProvider attribute="class" >
       <div className="text-left">
         <div className="flex mb-6">
-          <img src={logo} className="h-10 w-10 mr-1" alt="Maester logo" />
-          <h1 className="text-3xl font-bold self-end">Maester Test Results</h1>
+          <img src={logo} className="h-10 w-30 mr-5" alt="Pax8 Professional Services logo" />
+          <h1 className="text-3xl font-bold self-end">CIS Security Report</h1>
         </div>
         <Flex>
           <Badge className="bg-orange-500 bg-opacity-10 text-orange-600 dark:bg-opacity-60" icon={BuildingOfficeIcon}>{getTenantName()}</Badge>
@@ -262,7 +262,7 @@ function App() {
         <TestResultsTable TestResults={testResults} />
         <Divider />
         <Grid numItemsSm={2} numItemsLg={2} className="gap-6 mb-6">
-          <Text><a href="https://maester.dev" target="_blank" rel="noreferrer">Maester {testResults.CurrentVersion}</a></Text>
+          <Text><a href="https://www.pax8.com/en-us/professional-services/" target="_blank" rel="noreferrer">Pax8 Professional Services {testResults.CurrentVersion}</a></Text>
           <div className="place-self-end">
             <ThemeSwitch />
           </div>
