@@ -229,7 +229,7 @@ function App() {
       <div className="text-left">
         <div className="flex mb-6">
           <img src={logo} className="h-10 w-30 mr-5" alt="Pax8 Professional Services logo" />
-          <h1 className="text-3xl font-bold self-end">CIS Security Report</h1>
+          <h1 className="text-3xl font-bold self-end">Security Report</h1>
         </div>
         <Flex>
           <Badge className="bg-orange-500 bg-opacity-10 text-orange-600 dark:bg-opacity-60" icon={BuildingOfficeIcon}>{getTenantName()}</Badge>
