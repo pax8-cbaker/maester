@@ -6,12 +6,12 @@
     Checks if security defaults are enabled in the tenant.
 
 .EXAMPLE
-    Test-ErSecurityDefaultsCheck
+    Test-Er-Entra-SecurityDefaultsCheck
 
     Returns true if security defaults are enabled
 
 #>
-function Test-ErSecurityDefaultsCheck {
+function Test-Er-Entra-SecurityDefaultsCheck {
     [CmdletBinding()]
     [OutputType([bool])]
     param()
