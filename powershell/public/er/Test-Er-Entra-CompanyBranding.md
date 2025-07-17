@@ -1,4 +1,4 @@
-ER.Entra.1.0.2 Ensure company branding is configured
+ER.Entra.1.2.1 Ensure company branding is configured
 
 Description
 

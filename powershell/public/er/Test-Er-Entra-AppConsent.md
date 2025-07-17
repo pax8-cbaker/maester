@@ -1,4 +1,4 @@
-ER.Entra.1.0.3 Check for user app consent
+ER.Entra.1.4.1 Check for user app consent
 
 Description
 

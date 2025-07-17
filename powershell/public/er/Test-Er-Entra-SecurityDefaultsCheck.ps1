@@ -35,7 +35,7 @@ function Test-Er-Entra-SecurityDefaultsCheck {
         }
 
         $testResultMarkdown = $testResultMarkdown -replace '%TestResult%', $resultMd
-
+        
         Add-MtTestResultDetail -Result $testResultMarkdown
         return $testResult
     } catch {

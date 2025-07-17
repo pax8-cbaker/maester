@@ -35,7 +35,7 @@ function Test-Er-Entra-CompanyBranding {
         } else {
             $testResultMarkdown = "Your tenant does not have company branding applied.`n`n%TestResult%"
         }
-
+        
         $testResultMarkdown = $testResultMarkdown -replace '%TestResult%', $resultMd
 
         Add-MtTestResultDetail -Result $testResultMarkdown

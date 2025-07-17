@@ -56,6 +56,7 @@ function Get-MtGraphScope {
         'Directory.Read.All'
         'DirectoryRecommendations.Read.All'
         'IdentityRiskEvent.Read.All'
+        'OnPremDirectorySynchronization.Read.All'
         'Policy.Read.All'
         'Policy.Read.ConditionalAccess'
         'PrivilegedAccess.Read.AzureAD'
